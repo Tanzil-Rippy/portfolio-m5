@@ -124,32 +124,55 @@ header>div>button {
     width: 584px;
     height: 676px;
     flex-shrink: 0;
-    
+
 }
 
 
 /* main section  */
-.section-titel{
-    color:#181818;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
+.section-titel {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 }
-.about-discription{
-    color:#757575);
+
+.about-discription {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    width: 1140px;
+    height: 550px;
+    flex-shrink: 0;
+    align-items: center;
+    margin: 130px 230px 130px 230px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.section-discription{
+    color: var(--Dark-03, #757575);
 text-align: center;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
+width: 909px;
 }
-.about{
-    border-radius: 10px;
-background: #FFF8F3; 
-width: 1140px;
-height: 550px;
-flex-shrink: 0;
-align-items: center;
-margin: 130px 230px 130px 230px ;
+.section-titel{
+    margin:10px 155px 10px 155px;
 }
+
+
 
 /* about me section */

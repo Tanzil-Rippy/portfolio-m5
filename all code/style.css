@@ -51,6 +51,7 @@ button {
     background: #FD6E0A;
     margin-top: 0px;
     margin-right: 230px;
+    display: inline;
 }
 
 .btn {
@@ -61,13 +62,16 @@ button {
 
 /* header realeted styles */
 .header {
-
     background: #FFF8F3;
+    background-image: url("../portfolio-resources/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 
 /* banner css */
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
 }
@@ -99,9 +103,19 @@ button {
     height: 64px;
     flex-shrink: 0;
     display: flex;
+
 }
-.hardy{
+
+header>div>button {
+    display: flex;
+}
+
+.hardy {
     width: 584px;
-height: 676px;
-flex-shrink: 0;
+    height: 676px;
+    flex-shrink: 0;
 }
+
+/* main section  */
+
+/* about me section */
